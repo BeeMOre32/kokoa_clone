@@ -3,13 +3,18 @@
 @import "variables.css";
 
 /* components first */
+
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-components.css";
 
 /* screens */
-@import "screens/login.css";
 
+@import "screens/login.css";
+@import "screens/fiends.css";
 body {
+  height: vh;
   font-family: "Didact Gothic", sans-serif;
   background-color: var(--dark);
   color: var(--white);

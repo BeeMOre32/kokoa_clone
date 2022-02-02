@@ -1,7 +1,10 @@
 .status-bar {
   top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
   box-sizing: border-box;
-  position: fixed;
+  position: sticky;
   display: flex;
   width: 100%;
   justify-content: center;
