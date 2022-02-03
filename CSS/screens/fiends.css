@@ -3,12 +3,26 @@
   display: block;
   padding: 15px 0px;
   background-color: #272b30de;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 #friends-display-link i {
   margin: 0px 5px;
   color: rgba(255, 255, 255, 0.37);
 }
-.friedns-screen {
+.firends-screen {
   padding: 0px var(--horizontal-space);
+}
+.firends-screen__channel {
+  margin-top: 25px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 15px;
+}
+.firends-screen__channel-header {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  color: rgba(255, 255, 255, 0.5);
+}
+.firends-screen__channel-header span {
+  font-size: 15px;
 }
