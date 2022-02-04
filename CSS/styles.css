@@ -14,6 +14,7 @@
 
 @import "screens/login.css";
 @import "screens/fiends.css";
+@import "screens/find.css";
 body {
   height: vh;
   font-family: "Didact Gothic", sans-serif;
