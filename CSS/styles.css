@@ -9,14 +9,17 @@
 @import "components/screen-header.css";
 @import "components/user-components.css";
 @import "components/badge.css";
-
+@import "components/icon-raw.css";
+@import "components/alt-screen-header.css";
 /* screens */
 
 @import "screens/login.css";
 @import "screens/fiends.css";
 @import "screens/find.css";
+@import "screens/more.css";
+@import "screens/settings.css";
 body {
-  height: vh;
+  height: 100vh;
   font-family: "Didact Gothic", sans-serif;
   background-color: var(--dark);
   color: var(--white);
