@@ -26,3 +26,26 @@
 .firends-screen__channel-header span {
   font-size: 15px;
 }
+@keyframes hideSplashScreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+#splash-screen {
+  background-color: yellow;
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 64px;
+  color: black;
+  animation: hideSplashScreen 0.4s ease-in-out forwards;
+  animation-delay: 2s;
+}
