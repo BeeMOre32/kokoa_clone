@@ -5,12 +5,37 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
 }
 .settings__setting i {
   margin-right: 15px;
   font-size: 20px;
 }
-.settings__setting-column:last-child {
+.settings__setting-column div:nth-of-type(5) {
   opacity: 0.5;
   font-size: 18px;
+}
+.settings__setting.none__line {
+  border: none;
+}
+
+.settings__line {
+  margin-top: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.settings__setting.divide__line {
+  margin-top: 10px;
+}
+.settings__setiing-new {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 100%;
+  left: 100px;
+  bottom: 16px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

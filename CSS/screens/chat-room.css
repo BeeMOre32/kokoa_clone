@@ -155,7 +155,7 @@
 }
 .reply__column:nth-child(2) > i {
   color: black;
-  top: 5px;
+  top: 12px;
   right: 27px;
 }
 @keyframes opacity {
